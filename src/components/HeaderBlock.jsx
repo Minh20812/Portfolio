@@ -11,15 +11,14 @@ const HeaderBlock = () => (
     <h1 className="mb-12 text-4xl font-medium leading-tight">
       Hi, I'm Minh.{" "}
       <span className="text-zinc-400">
-        I build cool websites like this one.
+        I design and develop websites, including this one.
       </span>
     </h1>
-    <a
-      href="#"
-      className="flex items-center gap-1 text-red-300 hover:underline"
-    >
-      Contact me <FiArrowRight />
-    </a>
+    <h2 className="flex items-center gap-1 text-red-300 hover:underline">
+      <a href="mailto:ngquangminh2128@gmail.com" className="text-inherit">
+        ngquangminh2128@gmail.com
+      </a>
+    </h2>
   </Block>
 );
 

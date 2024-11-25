@@ -8,13 +8,17 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-red-500 md:col-span-3"
+      className="col-span-6 md:col-span-3 p-0"
     >
       <a
-        href="#"
-        className="grid h-full place-content-center text-3xl text-white"
+        href="https://github.com/Minh20812/Manage-Storage"
+        className="grid h-full place-content-center"
       >
-        <SiYoutube />
+        <img
+          src="https://i.imgur.com/XAhYNuo.png"
+          alt="pic1"
+          className="w-full h-full object-cover"
+        />
       </a>
     </Block>
     <Block
@@ -22,13 +26,17 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-green-600 md:col-span-3"
+      className="col-span-6 md:col-span-3 p-0"
     >
       <a
-        href="#"
-        className="grid h-full place-content-center text-3xl text-white"
+        href="https://github.com/Minh20812/Todolist-App"
+        className="grid h-full place-content-center"
       >
-        <SiGithub />
+        <img
+          src="https://i.imgur.com/vwYUadm.png"
+          alt="pic2"
+          className="w-full h-full object-cover"
+        />
       </a>
     </Block>
     <Block
@@ -36,13 +44,17 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-zinc-50 md:col-span-3"
+      className="col-span-6 md:col-span-3 p-0"
     >
       <a
-        href="#"
-        className="grid h-full place-content-center text-3xl text-black"
+        href="https://github.com/Minh20812/CHATAPP-MERN"
+        className="grid h-full place-content-center"
       >
-        <SiTiktok />
+        <img
+          src="https://i.imgur.com/1SxA4ax.png"
+          alt="pic3"
+          className="w-full h-full object-cover"
+        />
       </a>
     </Block>
     <Block
@@ -50,13 +62,13 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-blue-500 md:col-span-3"
+      className="col-span-6  md:col-span-3 p-0"
     >
       <a
-        href="#"
-        className="grid h-full place-content-center text-3xl text-white"
+        href="https://github.com/Minh20812"
+        className="grid h-full place-content-center"
       >
-        <SiTwitter />
+        <SiGithub className=" size-10" />
       </a>
     </Block>
   </>

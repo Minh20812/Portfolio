@@ -5,9 +5,8 @@ const AboutBlock = () => (
     <p>
       My passion is building cool stuff.{" "}
       <span className="text-zinc-400">
-        I build primarily with React, Tailwind CSS, and Framer Motion. I love
-        this stack so much that I even built a website about it. I've made over
-        a hundred videos on the subject across YouTube and TikTok.
+        I build primarily with MERN, and I love this stack so I've even built
+        some websites with it. I also love to learn new technologies.
       </span>
     </p>
   </Block>
